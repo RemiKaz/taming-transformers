@@ -68,10 +68,10 @@ data:
     batch_size: 2
     num_workers: 8
     train:
-      target: taming.data.imagenet.RINTrainWithDepth
+      target: taming.data.cityscapes.train
       params:
         size: 256
     validation:
-      target: taming.data.imagenet.RINValidationWithDepth
+      target: taming.data.cityscapes.val
       params:
         size: 256
